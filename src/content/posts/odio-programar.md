@@ -1,6 +1,6 @@
 ---
 title: 'Odio programar y quizás quiera romper mi teclado'
-description: 'Quizás esté siendo exagerado. No es que odie programar, sino que ya no lo disfruto como antes.'
+description: 'Quizá exagero con esto. Ni siquiera estuve cerca de romper un teclado, pero sí que casi llegué a odiar programar.'
 pubDate: 'April 25 2024'
 categories: ['pensamientos']
 ---
