@@ -1,38 +1,34 @@
 export const THEME_CONFIG: App.Locals['config'] = {
   /** blog title */
-  title: "活版印字",
+  title: "Mixtura de ideas",
   /** your name */
-  author: "Typography",
+  author: "edopalomino",
   /** website description */
-  desc: "Rediscory the beauty of typography",
+  desc: "Mixtura de Ideas es un blog donde exploro y comparto una amplia gama de temas, desde reflexiones hasta innovaciones tecnológicas con un efoque personal",
   /** your deployed domain */
-  website: "https://astro-theme-typography.vercel.app/",
+  website: "https://blog.edopalomino.com/",
   /** your locale */
-  locale: "en-us",
+  locale: "es-mx",
   /** theme style */
   themeStyle: "light",
   /** your socials */
   socials: [
     {
       name: "github",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://github.com/edopalomino/",
     },
     {
       name: "rss",
       href: "/atom.xml",
     },
     {
-      name: "twitter",
-      href: "https://github.com/moeyua/astro-theme-typography",
-    },
-    {
       name: "mastodon",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://superhappy.social/@edopalomino",
     }
   ],
   /** your header info */
   header: {
-    twitter: "@moeyua13",
+    instagram: "@edopalomino",
   },
   /** your navigation links */
   navs: [
@@ -55,12 +51,12 @@ export const THEME_CONFIG: App.Locals['config'] = {
   ],
   /** your category name mapping, which the `path` will be shown in the url */
   category_map: [
-    { name: "胡适", path: "hu-shi" },
+    { name: "ejemplo", path: "ejemplo" },
   ],
   /** your comment provider */
   comments: {
     disqus: {
-      shortname: "typography-astro",
+      shortname: "",
     },
     // giscus: {
     //   repo: 'moeyua/astro-theme-typography',
