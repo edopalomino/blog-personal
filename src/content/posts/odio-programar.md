@@ -1,5 +1,5 @@
 ---
-title: 'Odio programar y quizas quiera romper mi teaclado'
+title: 'Odio programar y quizás quiera romper mi teclado'
 description: 'Quizás esté siendo exagerado. No es que odie programar, sino que ya no lo disfruto como antes.'
 pubDate: 'April 25 2024'
 categories: ['pensamientos']
