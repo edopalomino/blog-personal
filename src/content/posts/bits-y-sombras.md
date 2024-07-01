@@ -12,7 +12,7 @@ categories: ['investigacion']
 </aside>
 <br>
 <aside style="background-color:#FFF9D3">
-💡  <b>NOTA</b>: Aunque el término "pornografía infantil" aún es ampliamente utilizado por el público, es más preciso llamarlo por lo que realmente es: materiales de abuso sexual infantil (MASI). Mientras que parte de la pornografía en línea puede representar a adultos que han consentido ser filmados, esto nunca es el caso cuando las imágenes representan a infancias.
+💡  <b>NOTA</b>: Aunque el término "pornografía infantil" aún es ampliamente utilizado por el público, es más preciso llamarlo por lo que realmente es: <i>materiales de abuso sexual infantil</i> (MASI). Mientras que parte de la pornografía en línea puede representar a adultos que han consentido ser filmados, esto nunca es el caso cuando las imágenes representan a infancias.
 
 </aside>
 
@@ -51,9 +51,9 @@ Al igual que con las muñecas y robots sexuales, existe una preocupación real s
 > "Las muñecas y robots sexuales promueven (la aceptación de) el sexo no consentido y la violación, de lo contrario, no existirían configuraciones en las que las muñecas y robots expresen reacciones negativas cuando se les hacen avances sexuales (por ejemplo, la configuración Frigid Farrah en Roxxxy). Las muñecas y robots sexuales pueden usarse como una forma de expresar deseos violentos, de manera independiente o en conjunto con la actividad sexual" (Maras & Shapiro, 2017, p. 5, traducción propia).
 > 
 
-Este mismo principio puede aplicarse a los chatbots. Cuando los usuarios pueden "abusar" de un chatbot sin consecuencias, existe el riesgo de que este comportamiento se normalice y potencialmente se traslade a interacciones reales.
+Este mismo principio puede aplicarse a los chatbots. Cuando los usuarios pueden "abusar" de un chatbot sin consecuencias, podría existir el riesgo de que este comportamiento se normalice y potencialmente se traslade a interacciones reales.
 
-Otro paralelo preocupante se encuentra en cómo estas interacciones pueden reforzar fantasías dañinas. En el contexto del MASI, los estudios han demostrado:
+Otro paralelo preocupante se encuentra en cómo estas interacciones pueden reforzar fantasías dañinas. En el contexto del MASI:
 
 > "Los estudios sobre delincuentes sexuales infantiles han demostrado que el MASI es un fuerte indicador diagnóstico de pedofilia. El consumo de MASI no impide que los pedófilos cometan delitos en el futuro. En cambio, ver MASI(real y virtual) se considera una adicción progresiva que sirve como puerta de entrada al abuso sexual infantil" (Maras & Shapiro, 2017, p. 7 traducción propia).
 > 
@@ -79,9 +79,7 @@ Un ejemplo concreto de este fenómeno es un personaje titulado "Tina Wants You T
 - 778 conversaciones iniciadas
 - 9,300 mensajes intercambiados
 
-Estas cifras no solo indican la popularidad de este tipo de contenido, sino también el volumen de interacciones problemáticas que están teniendo lugar. Lo más preocupante es que estas cifras no son un caso aislado, sino que se repiten en otros bots del mismo estilo, lo que sugiere un patrón generalizado de comportamiento en estas plataformas menos reguladas.
-
-Dónde algunos usuarios compartían sus conversaciones públicamente en la plataforma, revelando diálogos explícitos que simulaban no solo el abuso verbal, sino también acciones físicas. La naturaleza gráfica y detallada de estas interacciones subraya la gravedad del problema.
+Estas cifras no solo indican la popularidad de este tipo de contenido, sino también el volumen de interacciones problemáticas que están teniendo lugar. Lo más preocupante es que estas cifras no son un caso aislado, sino que se repiten en otros bots del mismo estilo, lo que sugiere un patrón generalizado de comportamiento en estas plataformas menos reguladas. Algunos usuarios compartían sus conversaciones públicamente en la plataforma, revelando diálogos explícitos que simulaban no solo el abuso verbal, sino también acciones físicas. La naturaleza gráfica y detallada de estas interacciones subraya la gravedad del problema.
 
 ## Marco legal y regulatorio
 
