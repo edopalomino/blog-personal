@@ -48,21 +48,21 @@ Este fenómeno va más allá de simples juegos de rol. Muchos casos implican la 
 
 Al igual que con las muñecas y robots sexuales, existe una preocupación real sobre cómo el uso abusivo de chatbots puede normalizar comportamientos violentos. Según un estudio sobre muñecas y robots sexuales:
 
-> "Las muñecas y robots sexuales promueven (la aceptación de) el sexo no consentido y la violación, de lo contrario, no existirían configuraciones en las que las muñecas y robots expresen reacciones negativas cuando se les hacen avances sexuales (por ejemplo, la configuración Frigid Farrah en Roxxxy). Las muñecas y robots sexuales pueden usarse como una forma de expresar deseos violentos, de manera independiente o en conjunto con la actividad sexual" (Maras & Shapiro, 2017, p. 15, traducción propia).
+> "Las muñecas y robots sexuales promueven (la aceptación de) el sexo no consentido y la violación, de lo contrario, no existirían configuraciones en las que las muñecas y robots expresen reacciones negativas cuando se les hacen avances sexuales (por ejemplo, la configuración Frigid Farrah en Roxxxy). Las muñecas y robots sexuales pueden usarse como una forma de expresar deseos violentos, de manera independiente o en conjunto con la actividad sexual" (Maras & Shapiro, 2017, p. 5, traducción propia).
 > 
 
 Este mismo principio puede aplicarse a los chatbots. Cuando los usuarios pueden "abusar" de un chatbot sin consecuencias, existe el riesgo de que este comportamiento se normalice y potencialmente se traslade a interacciones reales.
 
 Otro paralelo preocupante se encuentra en cómo estas interacciones pueden reforzar fantasías dañinas. En el contexto del MASI, los estudios han demostrado:
 
-> "Los estudios sobre delincuentes sexuales infantiles han demostrado que el MASI es un fuerte indicador diagnóstico de pedofilia. El consumo de MASI no impide que los pedófilos cometan delitos en el futuro. En cambio, ver MASI(real y virtual) se considera una adicción progresiva que sirve como puerta de entrada al abuso sexual infantil" (Maras & Shapiro, 2017, p. 9 traducción propia).
+> "Los estudios sobre delincuentes sexuales infantiles han demostrado que el MASI es un fuerte indicador diagnóstico de pedofilia. El consumo de MASI no impide que los pedófilos cometan delitos en el futuro. En cambio, ver MASI(real y virtual) se considera una adicción progresiva que sirve como puerta de entrada al abuso sexual infantil" (Maras & Shapiro, 2017, p. 7 traducción propia).
 > 
 
 De manera similar, el uso de chatbots para simular situaciones de abuso o interacciones inapropiadas con menores podría servir como un refuerzo de estas fantasías, potencialmente aumentando el riesgo de que estos comportamientos se manifiesten en el mundo real.
 
 La interacción con chatbots, especialmente en contextos sexuales o abusivos, plantea preocupaciones sobre la objetificación y deshumanización. Como se señala en el estudio sobre muñecas sexuales:
 
-> "Las muñecas y robots sexuales están 'específicamente diseñados para interacciones personales que involucrarán emociones y sentimientos humanos', pero estas son relaciones unidireccionales. La tecnología actual para estos muñecas y robots sexuales no incluye la capacidad de siquiera imitar el malestar emocional humano en respuesta a la agresión dirigida hacia ellos" (Maras & Shapiro, 2017, p. 15, traducción propia).
+> "Las muñecas y robots sexuales están 'específicamente diseñados para interacciones personales que involucrarán emociones y sentimientos humanos', pero estas son relaciones unidireccionales. La tecnología actual para estos muñecas y robots sexuales no incluye la capacidad de siquiera imitar el malestar emocional humano en respuesta a la agresión dirigida hacia ellos" (Maras & Shapiro, 2017, p. 10, traducción propia).
 > 
 
 Este mismo principio se puede aplicar a los chatbots. Aunque pueden simular emociones, no tienen capacidad real de sufrimiento o consentimiento, lo que puede llevar a una desensibilización hacia el sufrimiento humano real.
