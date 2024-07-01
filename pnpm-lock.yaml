@@ -13,7 +13,7 @@ importers:
         version: 0.5.10(typescript@5.3.3)
       '@astrojs/mdx':
         specifier: ^2.2.3
-        version: 2.2.4(astro@4.5.9)
+        version: 2.2.4(astro@4.5.9(@types/node@20.12.7)(typescript@5.3.3))
       '@astrojs/rss':
         specifier: ^4.0.4
         version: 4.0.5
@@ -35,6 +35,9 @@ importers:
       giscus:
         specifier: ^1.5.0
         version: 1.5.0
+      pnpm:
+        specifier: ^9.4.0
+        version: 9.4.0
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -80,7 +83,7 @@ importers:
         version: 2.12.1
       unocss:
         specifier: ^0.58.5
-        version: 0.58.5(postcss@8.4.35)(vite@5.2.8)
+        version: 0.58.5(postcss@8.4.38)(rollup@4.14.1)(vite@5.2.8(@types/node@20.12.7))
 
 packages:
 
@@ -2230,6 +2233,11 @@ packages:
   pkg-types@1.0.3:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}
 
+  pnpm@9.4.0:
+    resolution: {integrity: sha512-9Um4pSydK4U2di+ZwHIiBe/Fr5E+d4NdvMw7CwssqefcgCK3gGLBcpHEjoh0nHDOiOtadPH6jEv14Yu0bIvYOg==}
+    engines: {node: '>=18.12'}
+    hasBin: true
+
   postcss@8.4.35:
     resolution: {integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==}
     engines: {node: ^10 || ^12 || >=14}
@@ -3006,7 +3014,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@2.2.4(astro@4.5.9)':
+  '@astrojs/mdx@2.2.4(astro@4.5.9(@types/node@20.12.7)(typescript@5.3.3))':
     dependencies:
       '@astrojs/markdown-remark': 5.0.0
       '@mdx-js/mdx': 3.0.1
@@ -3579,11 +3587,13 @@ snapshots:
 
   '@polka/url@1.0.0-next.24': {}
 
-  '@rollup/pluginutils@5.1.0':
+  '@rollup/pluginutils@5.1.0(rollup@4.14.1)':
     dependencies:
       '@types/estree': 1.0.5
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    optionalDependencies:
+      rollup: 4.14.1
 
   '@rollup/rollup-android-arm-eabi@4.14.1':
     optional: true
@@ -3714,19 +3724,20 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@unocss/astro@0.58.5(vite@5.2.8)':
+  '@unocss/astro@0.58.5(rollup@4.14.1)(vite@5.2.8(@types/node@20.12.7))':
     dependencies:
       '@unocss/core': 0.58.5
       '@unocss/reset': 0.58.5
-      '@unocss/vite': 0.58.5(vite@5.2.8)
+      '@unocss/vite': 0.58.5(rollup@4.14.1)(vite@5.2.8(@types/node@20.12.7))
+    optionalDependencies:
       vite: 5.2.8(@types/node@20.12.7)
     transitivePeerDependencies:
       - rollup
 
-  '@unocss/cli@0.58.5':
+  '@unocss/cli@0.58.5(rollup@4.14.1)':
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@rollup/pluginutils': 5.1.0
+      '@rollup/pluginutils': 5.1.0(rollup@4.14.1)
       '@unocss/config': 0.58.5
       '@unocss/core': 0.58.5
       '@unocss/preset-uno': 0.58.5
@@ -3759,7 +3770,7 @@ snapshots:
       gzip-size: 6.0.0
       sirv: 2.0.4
 
-  '@unocss/postcss@0.58.5(postcss@8.4.35)':
+  '@unocss/postcss@0.58.5(postcss@8.4.38)':
     dependencies:
       '@unocss/config': 0.58.5
       '@unocss/core': 0.58.5
@@ -3767,7 +3778,7 @@ snapshots:
       css-tree: 2.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.7
-      postcss: 8.4.35
+      postcss: 8.4.38
 
   '@unocss/preset-attributify@0.58.5':
     dependencies:
@@ -3852,10 +3863,10 @@ snapshots:
     dependencies:
       '@unocss/core': 0.58.5
 
-  '@unocss/vite@0.58.5(vite@5.2.8)':
+  '@unocss/vite@0.58.5(rollup@4.14.1)(vite@5.2.8(@types/node@20.12.7))':
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@rollup/pluginutils': 5.1.0
+      '@rollup/pluginutils': 5.1.0(rollup@4.14.1)
       '@unocss/config': 0.58.5
       '@unocss/core': 0.58.5
       '@unocss/inspector': 0.58.5
@@ -4045,7 +4056,7 @@ snapshots:
       unist-util-visit: 5.0.0
       vfile: 6.0.1
       vite: 5.2.8(@types/node@20.12.7)
-      vitefu: 0.2.5(vite@5.2.8)
+      vitefu: 0.2.5(vite@5.2.8(@types/node@20.12.7))
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.22.4
@@ -5671,6 +5682,8 @@ snapshots:
       mlly: 1.6.1
       pathe: 1.1.2
 
+  pnpm@9.4.0: {}
+
   postcss@8.4.35:
     dependencies:
       nanoid: 3.3.7
@@ -6132,7 +6145,7 @@ snapshots:
   trough@2.2.0: {}
 
   tsconfck@3.0.2(typescript@5.3.3):
-    dependencies:
+    optionalDependencies:
       typescript: 5.3.3
 
   tsx@4.7.2:
@@ -6259,13 +6272,13 @@ snapshots:
       unist-util-is: 6.0.0
       unist-util-visit-parents: 6.0.1
 
-  unocss@0.58.5(postcss@8.4.35)(vite@5.2.8):
+  unocss@0.58.5(postcss@8.4.38)(rollup@4.14.1)(vite@5.2.8(@types/node@20.12.7)):
     dependencies:
-      '@unocss/astro': 0.58.5(vite@5.2.8)
-      '@unocss/cli': 0.58.5
+      '@unocss/astro': 0.58.5(rollup@4.14.1)(vite@5.2.8(@types/node@20.12.7))
+      '@unocss/cli': 0.58.5(rollup@4.14.1)
       '@unocss/core': 0.58.5
       '@unocss/extractor-arbitrary-variants': 0.58.5
-      '@unocss/postcss': 0.58.5(postcss@8.4.35)
+      '@unocss/postcss': 0.58.5(postcss@8.4.38)
       '@unocss/preset-attributify': 0.58.5
       '@unocss/preset-icons': 0.58.5
       '@unocss/preset-mini': 0.58.5
@@ -6280,7 +6293,8 @@ snapshots:
       '@unocss/transformer-compile-class': 0.58.5
       '@unocss/transformer-directives': 0.58.5
       '@unocss/transformer-variant-group': 0.58.5
-      '@unocss/vite': 0.58.5(vite@5.2.8)
+      '@unocss/vite': 0.58.5(rollup@4.14.1)(vite@5.2.8(@types/node@20.12.7))
+    optionalDependencies:
       vite: 5.2.8(@types/node@20.12.7)
     transitivePeerDependencies:
       - postcss
@@ -6331,54 +6345,59 @@ snapshots:
 
   vite@5.2.8(@types/node@20.12.7):
     dependencies:
-      '@types/node': 20.12.7
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.14.1
     optionalDependencies:
+      '@types/node': 20.12.7
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.2.8):
-    dependencies:
+  vitefu@0.2.5(vite@5.2.8(@types/node@20.12.7)):
+    optionalDependencies:
       vite: 5.2.8(@types/node@20.12.7)
 
   volar-service-css@0.0.34(@volar/language-service@2.1.6):
     dependencies:
-      '@volar/language-service': 2.1.6
       vscode-css-languageservice: 6.2.12
       vscode-languageserver-textdocument: 1.0.11
       vscode-uri: 3.0.8
+    optionalDependencies:
+      '@volar/language-service': 2.1.6
 
   volar-service-emmet@0.0.34(@volar/language-service@2.1.6):
     dependencies:
-      '@volar/language-service': 2.1.6
       '@vscode/emmet-helper': 2.9.2
       vscode-html-languageservice: 5.1.2
+    optionalDependencies:
+      '@volar/language-service': 2.1.6
 
   volar-service-html@0.0.34(@volar/language-service@2.1.6):
     dependencies:
-      '@volar/language-service': 2.1.6
       vscode-html-languageservice: 5.1.2
       vscode-languageserver-textdocument: 1.0.11
       vscode-uri: 3.0.8
+    optionalDependencies:
+      '@volar/language-service': 2.1.6
 
   volar-service-prettier@0.0.34(@volar/language-service@2.1.6):
     dependencies:
-      '@volar/language-service': 2.1.6
       vscode-uri: 3.0.8
+    optionalDependencies:
+      '@volar/language-service': 2.1.6
 
   volar-service-typescript-twoslash-queries@0.0.34(@volar/language-service@2.1.6):
-    dependencies:
+    optionalDependencies:
       '@volar/language-service': 2.1.6
 
   volar-service-typescript@0.0.34(@volar/language-service@2.1.6):
     dependencies:
-      '@volar/language-service': 2.1.6
       path-browserify: 1.0.1
       semver: 7.6.0
       typescript-auto-import-cache: 0.3.2
       vscode-languageserver-textdocument: 1.0.11
       vscode-nls: 5.2.0
+    optionalDependencies:
+      '@volar/language-service': 2.1.6
 
   vscode-css-languageservice@6.2.12:
     dependencies:
