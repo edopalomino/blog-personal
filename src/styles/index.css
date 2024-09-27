@@ -64,6 +64,13 @@ article {
   word-wrap: break-word;
 }
 
+article.heti p {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  font-size: 17px;
+}
+
 article.heti a:hover {
   padding-block-end: 0px;
   border-block-end: 1px solid rgba(0, 0, 0, 0);
